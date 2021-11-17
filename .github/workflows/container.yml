@@ -1,4 +1,4 @@
-# container deploy script
+# container deploy script v2
 name: deploy-container
 
 on:
@@ -30,4 +30,4 @@ jobs:
         env:
           ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{‌ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
